@@ -14,7 +14,8 @@ mkdir build
 javac ^
 -cp "%TOMCAT%\lib\*" ^
 -d build ^
-src\framework\*.java ^
+src\framework\Annotation.java ^
+src\framework\FrontController.java ^
 src\controller\*.java
 
 if errorlevel 1 (
